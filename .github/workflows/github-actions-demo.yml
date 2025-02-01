@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: foo
-        uses: emittam/actions-test-3
+        uses: emittam/actions-test-3@v1
 
         with:
           who-to-greet: 'Mona the Octocat'
